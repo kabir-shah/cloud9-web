@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: Source Sans Pro;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#header {
+    font-size: 30px;
+}
+
+#header div {
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    font-weight: 200;
+}
+
+img {
+    width: 300px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
